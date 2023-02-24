@@ -11,7 +11,7 @@ import Alamofire
 class APIHandler{
     static let sharedInstance = APIHandler()
     
-    let token: HTTPHeaders = [.authorization(bearerToken: "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")]
+    let token: HTTPHeaders = [.authorization(bearerToken: "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")]
 
     func fetchDataListUser(handler: @escaping (_ apiData:[User]) -> (Void)) {
         let url = "https://api.github.com/users"
